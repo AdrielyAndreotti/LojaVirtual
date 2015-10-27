@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Dominio", "Quiron.LojaVirtual.Dominio\Quiron.LojaVirtual.Dominio.csproj", "{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Repositorio", "Quiron.LojaVirtual.Repositorio\Quiron.LojaVirtual.Repositorio.csproj", "{8AC1A188-6C9B-4558-842F-A6C047072AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Web.UI", "Quiron.LojaVirtual.Web.UI\Quiron.LojaVirtual.Web.UI.csproj", "{10D479AA-96DF-467A-A98B-4D3DA505EA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.UnitTest", "Quiron.LojaVirtual.UnitTest\Quiron.LojaVirtual.UnitTest.csproj", "{A7034A6A-843D-4AF1-A2DC-D51468BCACB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{53226990-0893-4443-8E8D-B4FF2C82EE89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{AE860510-6EB1-4346-B841-EA2DD4050939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{DB12A8A0-E671-464C-8328-A05C282C741C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{97079F0D-4666-42BB-9089-A6049DD3C972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{5FF6146D-DF9B-4F2A-8B12-A9E73891E741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC1A188-6C9B-4558-842F-A6C047072AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC1A188-6C9B-4558-842F-A6C047072AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC1A188-6C9B-4558-842F-A6C047072AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC1A188-6C9B-4558-842F-A6C047072AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D479AA-96DF-467A-A98B-4D3DA505EA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D479AA-96DF-467A-A98B-4D3DA505EA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D479AA-96DF-467A-A98B-4D3DA505EA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D479AA-96DF-467A-A98B-4D3DA505EA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7034A6A-843D-4AF1-A2DC-D51468BCACB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7034A6A-843D-4AF1-A2DC-D51468BCACB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7034A6A-843D-4AF1-A2DC-D51468BCACB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7034A6A-843D-4AF1-A2DC-D51468BCACB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F24A805-DEB9-4C7B-97B3-5BD8C07B8CA6} = {DB12A8A0-E671-464C-8328-A05C282C741C}
+		{8AC1A188-6C9B-4558-842F-A6C047072AA1} = {97079F0D-4666-42BB-9089-A6049DD3C972}
+		{10D479AA-96DF-467A-A98B-4D3DA505EA35} = {53226990-0893-4443-8E8D-B4FF2C82EE89}
+		{A7034A6A-843D-4AF1-A2DC-D51468BCACB8} = {5FF6146D-DF9B-4F2A-8B12-A9E73891E741}
+	EndGlobalSection
+EndGlobal
